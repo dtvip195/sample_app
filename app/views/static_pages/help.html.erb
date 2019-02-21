@@ -1,0 +1,9 @@
+<% provide :title, t(".help") %>
+<h1><%= t ".help"%></h1>
+<p>
+  <%
+  help_link = link_to t(".tutorial"), t(".help_link")
+  book_link = link_to t(".help_section"), t(".book_link")
+  %>
+  <%= raw t(".text", help_link: help_link, book_link: book_link)%>
+</p>

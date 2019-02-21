@@ -1,0 +1,6 @@
+<% provide :title, t(".contact") %>
+<h1><%= t ".contact"%></h1>
+<p>
+  <% contact_link = link_to t(".contact_page"), t(".contact_link")%>
+  <%= raw t(".text", contact_link: contact_link)%>
+</p>
