@@ -7,14 +7,26 @@ en:
     application:
       title: "Ruby on Rails Tutorial Sample App"
 
+    _footer:
+      news: "News"
+      news_rails_link: "http://news.railstutorial.org/"
+      tutorial: "Ruby on Rails Tutorial"
+      rails_link: "https://www.railstutorial.org/"
+      m: "Michael Hartl"
+      m_link: "http://www.michaelhartl.com/"
+      text: "The %{rails_link} by %{m_link}"
+    _header:
+      sample_app: "Sample app"
+
   #static_pages
   static_pages:
     home:
       home: "Home"
-      title: "Sample App"
+      title: "Welcome to the Sample App"
       tutorial: "Ruby on Rails Tutorial"
       rails_link: "https://www.railstutorial.org/"
       text: "This is the home page for the %{rails_link} sample application."
+      signup: "Sign up now!"
 
     help:
       help: "Help"
@@ -35,10 +47,16 @@ en:
       book_link: "http://www.railstutorial.org/book"
       ss_link: "http://screencasts.railstutorial.org/"
       text: "The %{rails_link} is a %{book_link} and %{ss_link} to teach web development
-      with %{<rails_link1></rails_link1>}. This is the sample application for the tutorial."
+      with %{rails_link1}. This is the sample application for the tutorial."
 
     contact:
       contact: "Contact"
       contact_link: "https://www.railstutorial.org/contact"
       contact_page: "contact page"
       text: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_link}"
+
+  #users
+  users:
+    new:
+      signup: "Sign up"
+      text: "This will be a signup page for new users."
