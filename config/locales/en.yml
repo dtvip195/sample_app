@@ -1,6 +1,9 @@
 en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App!"
+  welcome: "Welcome to the Sample App!"
+  error1: "Not found"
+  errs: "The form contains %{errors_count}."
 
   #layout
   layouts:
@@ -60,3 +63,8 @@ en:
     new:
       signup: "Sign up"
       text: "This will be a signup page for new users."
+      create: "Create my account"
+      name: "Name"
+      email: "Email Address"
+      psw: "Password"
+      pswc: "Password Confirmation"

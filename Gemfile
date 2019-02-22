@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem "config"
+
 gem "bcrypt", "3.1.12"
 
 gem "rails-controller-testing"
