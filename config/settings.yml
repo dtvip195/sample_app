@@ -3,3 +3,5 @@ user:
   max_name: 50
   max_email: 255
   min_pass: 6
+session:
+  remember_me: "1"
