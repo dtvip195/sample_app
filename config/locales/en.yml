@@ -4,6 +4,7 @@ en:
   welcome: "Welcome to the Sample App!"
   error1: "Not found"
   errs: "The form contains %{errors_count}."
+  errlogin: "Invalid email/password combination"
 
   #layout
   layouts:
@@ -18,8 +19,13 @@ en:
       m: "Michael Hartl"
       m_link: "http://www.michaelhartl.com/"
       text: "The %{rails_link} by %{m_link}"
-    _header:
+    header:
       sample_app: "Sample app"
+      pf: "Profile"
+      st: "Settings"
+      out: "Log out"
+      in: "Log in"
+      user: "Users"
 
   #static_pages
   static_pages:
@@ -68,3 +74,12 @@ en:
       email: "Email Address"
       psw: "Password"
       pswc: "Password Confirmation"
+
+  #sessions
+  sessions:
+    new:
+      login: "Login"
+      email: "Email"
+      psw: "Password"
+      newuser: "New user?"
+      signupnow: "Sign up now!"

@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
 gem "config"
 
 gem "bcrypt", "3.1.12"
