@@ -9,6 +9,11 @@ en:
   please: "Please log in."
   nodata: "Sorry, no data found"
   delete: "User deleted"
+  activated: "Please check your email to activate your account."
+  not_act: "Account not activated."
+  check_act: "Check your email for the activation link."
+  aact: "Account activated!"
+  act_link: "Invalid activation link"
 
   #layout
   layouts:
@@ -102,3 +107,9 @@ en:
       newuser: "New user?"
       signupnow: "Sign up now!"
       remember: "Remember me on this computer"
+
+  #user_mailer
+  user_mailer:
+    account_activation:
+      text: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"

@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem 'haml'
+
 gem 'faker',          '1.7.3'
 
 gem 'will_paginate',           '3.1.6'
