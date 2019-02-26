@@ -29,6 +29,6 @@ class SessionsController < ApplicationController
   def load_user
     @user = User.find_by email: params[:session][:email].downcase
     return if @user
-    flash[:danger] = t "no_data"
+    flash[:danger] = t "nodata"
   end
 end

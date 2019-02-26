@@ -5,6 +5,10 @@ en:
   error1: "Not found"
   errs: "The form contains %{errors_count}."
   errlogin: "Invalid email/password combination"
+  profileup: "Profile updated"
+  please: "Please log in."
+  nodata: "Sorry, no data found"
+  delete: "User deleted"
 
   #layout
   layouts:
@@ -70,10 +74,24 @@ en:
       signup: "Sign up"
       text: "This will be a signup page for new users."
       create: "Create my account"
+
+    form:
       name: "Name"
       email: "Email Address"
       psw: "Password"
       pswc: "Password Confirmation"
+
+    edit:
+      edit: "Edit user"
+      sc: "Save changes"
+      change: "Change"
+      update: "Update your profile"
+
+    index:
+      all: "All users"
+
+    user:
+      sure: "You sure?"
 
   #sessions
   sessions:

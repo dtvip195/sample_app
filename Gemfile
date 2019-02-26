@@ -3,6 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem 'faker',          '1.7.3'
+
+gem 'will_paginate',           '3.1.6'
+
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
