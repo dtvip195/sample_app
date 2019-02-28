@@ -22,7 +22,7 @@ class UsersController < ApplicationController
       flash[:info] = t "activated"
       redirect_to root_path
     else
-      render :new_token
+      render :new
     end
   end
 

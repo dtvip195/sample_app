@@ -14,6 +14,8 @@ en:
   check_act: "Check your email for the activation link."
   aact: "Account activated!"
   act_link: "Invalid activation link"
+  notfoundemail: "Email address not found"
+  resetemail: "Email sent with password reset instructions"
 
   #layout
   layouts:
@@ -107,9 +109,23 @@ en:
       newuser: "New user?"
       signupnow: "Sign up now!"
       remember: "Remember me on this computer"
+      forgotpsw: "(forgot password)"
 
   #user_mailer
   user_mailer:
     account_activation:
       text: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+
+  #password_resets
+  password_resets:
+    new:
+      forgotpsw: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+
+    edit:
+      resetpsw: "Reset password"
+      updatepsw: "Update password"
+      psw: "Password"
+      pswc: "Password Confirmation"
