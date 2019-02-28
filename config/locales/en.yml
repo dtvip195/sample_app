@@ -99,6 +99,7 @@ en:
 
     user:
       sure: "You sure?"
+      delete: "delete"
 
   #sessions
   sessions:
@@ -111,11 +112,20 @@ en:
       remember: "Remember me on this computer"
       forgotpsw: "(forgot password)"
 
+  #shared
+  shared:
+    user_infor:
+      viewprofile: "view my profile"
+
   #user_mailer
   user_mailer:
     account_activation:
       text: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      linkreset: "To reset your password click the link below"
+      timeexpired: "This link will expire in two hours"
+      passwordreset: "Password reset"
 
   #password_resets
   password_resets:
@@ -129,3 +139,8 @@ en:
       updatepsw: "Update password"
       psw: "Password"
       pswc: "Password Confirmation"
+
+  #microposts
+  microposts:
+    micropost:
+      sure: "You sure?"
