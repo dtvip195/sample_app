@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%
+    rails_link = link_to t("layouts._footer.tutorial"), t("layouts._footer.rails_link")
+    m_link = link_to t("layouts._footer.m"), t("layouts._footer.m_link")
+    %>
+    <%= raw t("layouts._footer.text", rails_link: rails_link, m_link: m_link) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to(t(".about"), about_path) %></li>
+      <li><%= link_to(t(".contact"), contact_path) %></li>
+      <li><%= link_to(t("layouts._footer.news"), t("layouts._footer.news_rails_link")) %></li>
+    </ul>
+  </nav>
+</footer>

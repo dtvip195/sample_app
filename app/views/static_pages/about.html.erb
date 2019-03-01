@@ -1,0 +1,12 @@
+<% provide :title, t(".about") %>
+<h1><%= t ".about"%></h1>
+<p>
+  <%
+  rails_link = link_to t(".tutorial"), t(".rails_link")
+  book_link = link_to t(".book"), t(".book_link")
+  ss_link = link_to t(".ss"), t(".ss_link")
+  rails_link1 = link_to t(".rails"), t(".rails_link")
+  %>
+  <%= raw t(".text", rails_link: rails_link, book_link: book_link,
+  ss_link: ss_link, rails_link1: rails_link1)%>
+</p>

@@ -1,33 +1,156 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App!"
+  welcome: "Welcome to the Sample App!"
+  error1: "Not found"
+  errs: "The form contains %{errors_count}."
+  errlogin: "Invalid email/password combination"
+  profileup: "Profile updated"
+  please: "Please log in."
+  nodata: "Sorry, no data found"
+  delete: "User deleted"
+  activated: "Please check your email to activate your account."
+  not_act: "Account not activated."
+  check_act: "Check your email for the activation link."
+  aact: "Account activated!"
+  act_link: "Invalid activation link"
+  notfoundemail: "Email address not found"
+  resetemail: "Email sent with password reset instructions"
+
+  #layout
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+
+    _footer:
+      news: "News"
+      news_rails_link: "http://news.railstutorial.org/"
+      tutorial: "Ruby on Rails Tutorial"
+      rails_link: "https://www.railstutorial.org/"
+      m: "Michael Hartl"
+      m_link: "http://www.michaelhartl.com/"
+      text: "The %{rails_link} by %{m_link}"
+    header:
+      sample_app: "Sample app"
+      pf: "Profile"
+      st: "Settings"
+      out: "Log out"
+      in: "Log in"
+      user: "Users"
+
+  #static_pages
+  static_pages:
+    home:
+      home: "Home"
+      title: "Welcome to the Sample App"
+      tutorial: "Ruby on Rails Tutorial"
+      rails_link: "https://www.railstutorial.org/"
+      text: "This is the home page for the %{rails_link} sample application."
+      signup: "Sign up now!"
+
+    help:
+      help: "Help"
+      tutorial: "Ruby on Rails Tutorial"
+      help_section: "Rails Tutorial help section"
+      help_link: "http://www.railstutorial.org/help"
+      book_link: "http://www.railstutorial.org/book"
+      text: "Get help on the Ruby on Rails Tutorial at the %{help_link}.
+      To get help on this sample app, see the %{book_link} book."
+
+    about:
+      about: "About"
+      tutorial: "Ruby on Rails Tutorial"
+      book: "book"
+      ss: "screencast series"
+      rails: "Ruby on Rails"
+      rails_link: "https://www.railstutorial.org/"
+      book_link: "http://www.railstutorial.org/book"
+      ss_link: "http://screencasts.railstutorial.org/"
+      text: "The %{rails_link} is a %{book_link} and %{ss_link} to teach web development
+      with %{rails_link1}. This is the sample application for the tutorial."
+
+    contact:
+      contact: "Contact"
+      contact_link: "https://www.railstutorial.org/contact"
+      contact_page: "contact page"
+      text: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_link}"
+
+  #users
+  users:
+    new:
+      signup: "Sign up"
+      text: "This will be a signup page for new users."
+      create: "Create my account"
+
+    form:
+      name: "Name"
+      email: "Email Address"
+      psw: "Password"
+      pswc: "Password Confirmation"
+
+    edit:
+      edit: "Edit user"
+      sc: "Save changes"
+      change: "Change"
+      update: "Update your profile"
+
+    index:
+      all: "All users"
+
+    user:
+      sure: "You sure?"
+      delete: "delete"
+
+    follow:
+      follow: "Follow"
+
+    unfollow:
+      unfollow: "Unfollow"
+
+    show_follow:
+      viewprofile: "view my profile"
+      mposts: "Microposts:"
+
+  #sessions
+  sessions:
+    new:
+      login: "Login"
+      email: "Email"
+      psw: "Password"
+      newuser: "New user?"
+      signupnow: "Sign up now!"
+      remember: "Remember me on this computer"
+      forgotpsw: "(forgot password)"
+
+  #shared
+  shared:
+    user_infor:
+      viewprofile: "view my profile"
+
+  #user_mailer
+  user_mailer:
+    account_activation:
+      text: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    password_reset:
+      linkreset: "To reset your password click the link below"
+      timeexpired: "This link will expire in two hours"
+      passwordreset: "Password reset"
+
+  #password_resets
+  password_resets:
+    new:
+      forgotpsw: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+
+    edit:
+      resetpsw: "Reset password"
+      updatepsw: "Update password"
+      psw: "Password"
+      pswc: "Password Confirmation"
+
+  #microposts
+  microposts:
+    micropost:
+      sure: "You sure?"
