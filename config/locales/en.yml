@@ -101,6 +101,16 @@ en:
       sure: "You sure?"
       delete: "delete"
 
+    follow:
+      follow: "Follow"
+
+    unfollow:
+      unfollow: "Unfollow"
+
+    show_follow:
+      viewprofile: "view my profile"
+      mposts: "Microposts:"
+
   #sessions
   sessions:
     new:
